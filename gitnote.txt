@@ -1,24 +1,61 @@
 1、pwd 
 	显示当前仓库的位置
+
 2、git init
 	初始化当前仓库
+
 3、git add xxxx
 	将文件添加到仓库，可多次使用，添加不同文件
+
 4、git commit -m "xxxxx"
 	将文件提交到仓库，-m后面输入的是本次提交的说明，可以在历史记录找到的修改的记录
+
 5、git status 
 	查看仓库当前状态
+	
 6、git diff <filename>
 	查看文件具体修改的内容
    git diff HEAD -- <filename> 
     查看工作区与最新版本的区别
+	
 7、git log --pretty=online
 	查看修改历史记录,--pretty=oneline简化输出的日志内容
+
 8、git reset --hard HEAD^
 	回退到上一个版本，HEAD^^是回退到上上个版本
 	
 9、git reset --hard <版本号前几位>
 	找回最新版本
+   git reset HEAD <filename>
+	将暂存区的修改内容回退到工作区
+	
 10、git reflog
 	查看所有输入的命令
-11、
+
+11、git checkout -- <filename>
+	撤销工作区内的所有修改
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
