@@ -10,6 +10,8 @@
 	查看仓库当前状态
 6、git diff <filename>
 	查看文件具体修改的内容
+   git diff HEAD -- <filename> 
+    查看工作区与最新版本的区别
 7、git log --pretty=online
 	查看修改历史记录,--pretty=oneline简化输出的日志内容
 8、git reset --hard HEAD^
