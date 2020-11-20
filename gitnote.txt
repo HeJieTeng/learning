@@ -3,4 +3,10 @@
 2、git init
 	初始化当前仓库
 3、git add xxxx
-	将文件添加到仓库
+	将文件添加到仓库，可多次使用，添加不同文件
+4、git commit -m "xxxxx"
+	将文件提交到仓库，-m后面输入的是本次提交的说明，可以在历史记录找到的修改的记录
+5、git status 
+	查看仓库当前状态
+6、git diff <filename>
+	查看文件具体修改的内容
